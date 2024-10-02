@@ -10,7 +10,38 @@ Thumbs.db
 # Вспомогательные файлы
 *.log*
 node_modules/
+project/node_modules/
 
 # Собранные файлы (допишите самостоятельно)
+project/build/
 build/
 requirements.md
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/project/coverage
+
+# production
+/build
+
+# misc
+Thumbs.db
+.DS_Store
+.env
+*.log*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editors
+.idea
+*.sublime*
+.vscode
